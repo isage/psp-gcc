@@ -31,6 +31,8 @@ AM_MAINTAINER_MODE
 
 GCC_WITH_TOOLEXECLIBDIR
 
+GCC_NO_EXECUTABLES
+
 # Calculate toolexeclibdir
 # Also toolexecdir, though it's only used in toolexeclibdir
 case ${version_specific_libs} in
